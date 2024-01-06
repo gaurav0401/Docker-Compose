@@ -7,8 +7,11 @@
 <ul>
 
     <li>Docker-compose file  has .yml or .yaml extension or we can say it is a yaml format file.</li>
+
     <li><b>YAML file:</b>YAML is a human-readable data serialization language that is often used for writing configuration files.</li>
-    <li><b>Format of YAML file:</b>---
+    
+    <li><b>Format of YAML file:</b>
+        ---
              doe: "a deer, a female deer"
              ray: "a drop of golden sun"
              pi: 3.14159
@@ -21,7 +24,8 @@
             partridges:
                 count: 1
                  location: "a pear tree"
-            turtle-doves: two</li>
+            turtle-doves: two
+    </li>
 
 </ul>
 
