@@ -28,4 +28,6 @@
 <h3>How to build images using compose file</h3>
 <ul>
     <li><b>docker-compose build:</b> used to build image from compose file.</li>
+    <li><b>docker-compose  up --build:</b> It is used to build images from the compose file and then run containers of that image.</li>
+    <li><b>docker-compose  down:</b> It is used to stop running containers but images still remains.</li>
 </ul>
