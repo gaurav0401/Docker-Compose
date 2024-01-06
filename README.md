@@ -10,4 +10,22 @@
 <li><b>Format of YAML file:</b> <a href="https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started">click here</a>  </li>
 
 
+<h3>How to create a  compose file for docker</h3>
+<ul>
+    <li><b>create 'docker-compose.yml' file</b></li>
+    <li><b>'version':</b>if specifies which version of compose we are using.</li>
+    <li><b>'services':</b>it specifies which services we are using in our application like api , web , databases etc</li>
+    <li><b>build:</b>It specifies where to find the docker file for specific service.</li>
+    <li><b>image:</b>It specifies which image to be used for service e.g in case of db it may be mysql or mongo etc.</li>
+    <li><b>ports:</b>It defines which ports to be used to run application. </li>
+    <li><b>environment:</b>it defines  which environment to be used for a services , we can define more than one environment variables.</li>
+    <li><b>volumes:</b>It defines the volumes for application.</li>
+    <li><b>command:</b>it defines  which commands to be run during building an image.</li>
+    <li><b>container_name:</b>It defines name for a container.</li>
+    
+</ul>
 
+<h3>How to build images using compose file</h3>
+<ul>
+    <li><b>docker-compose build:</b> used to build image from compose file.</li>
+</ul>
